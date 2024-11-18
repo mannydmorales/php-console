@@ -27,7 +27,7 @@ To install the library (if not using composer):
 1. Clone/Download the repository
 2. Include the *autoload.php* script in your application
     ```php
-    require path/to/install/autoload.php;
+    require 'path/to/install/autoload.php';
     ```
 
 ## Usage
