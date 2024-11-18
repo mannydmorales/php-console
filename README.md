@@ -19,7 +19,7 @@ To install the library (using composer):
 1. `composer require mannydmorales/console`
 2. Include the composer autoloader 
     ```php
-    require __DIR__.'/vendor/autoload.php;
+    require __DIR__.'/vendor/autoload.php';
     ```
 
 To install the library (if not using composer):
