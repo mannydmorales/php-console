@@ -16,12 +16,19 @@ This library provides utility functions to interact with the console. Helpfull f
 ## Installation
 To install the library (using composer):
 
-1. Composer install coming soon
+1. `composer require mannydmorales/console`
+2. Include the composer autoloader 
+    ```php
+    require __DIR__.'/vendor/autoload.php;
+    ```
 
 To install the library (if not using composer):
 
 1. Clone/Download the repository
-2. Include the `autoload.php` script in your application
+2. Include the *autoload.php* script in your application
+    ```php
+    require path/to/install/autoload.php;
+    ```
 
 ## Usage
 Please view the examples located in the [examples/](examples) directory.
