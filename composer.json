@@ -1,0 +1,27 @@
+{
+    "name": "mannydmorales/console",
+    "description": "A utility library for interacting with the console.",
+    "type": "library",
+    "keywords": ["console","terminal","cli"],
+    "homepage": "https://opensource.mannydmorales.com/console",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Manny Morales",
+            "email": "mannydmorales@gmail.com",
+            "homepage": "https://opensource.mannydmorales.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "mannydmorales\\Console\\": "src/"
+        }
+    }
+}
